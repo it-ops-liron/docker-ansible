@@ -54,6 +54,7 @@ RUN echo "===> Enabling systemd..."  && \
     yum -y install python-pip               && \
     pip install --upgrade pywinrm           && \
     yum -y install sshpass openssh-clients  && \
+    yum -y install rsync                    && \
     \
     \
     echo "===> Removing unused YUM resources..."  && \
